@@ -9,7 +9,7 @@ resource "aws_cognito_user_pool" "lanchonete_pool" {
   }
 
   password_policy {
-    minimum_length    = 5
+    minimum_length    = 7
     require_lowercase = false
     require_numbers   = false
     require_symbols   = false
